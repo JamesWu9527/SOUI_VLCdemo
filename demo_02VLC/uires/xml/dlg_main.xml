@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<SOUI name="mainWindow" title="@string/title" bigIcon="ICON_LOGO:32" smallIcon="ICON_LOGO:16" width="800" height="600" margin="5,5,5,5" resizable="0" wndType="appMain" appWnd="1" translucent="0">
+	<root skin="skin_1_jpg" cache="1">
+		<caption pos="0,0,-0,30" show="1" font="adding:0">
+			<text pos="5,5" colorText="#ffffffff" font="face:宋体,size:20">VLC demo</text>
+			<imgbtn name="btn_close" skin="_skin.sys.btn.close" pos="-45,0" tip="close" animate="1" />
+		</caption>
+		<window pos="5,[2,-5,-5">
+			<text pos="26,16,@-1,@24" colorText="#ffffff">播放路径:</text>
+			<edit pos="[10,{,-100,@24" colorBkgnd="#FFFFFF" cueText="" colorText="#000000" name="edit_playurl" colorBkgnd="RGBA(0,0,0,0)" margin="1,1,1,1" colorBorder="#F9E3F8" />
+			<button pos="[5,{,@60,@24" colorText="#FFFFFF" skin="skin_1_jpg" name="btn_play">播 放</button>
+			<window pos="26,[10,@730,@500">
+				<realwnd pos="10,10,-10,-10" name="wnd_play" wndclass="SRealWnd" id="" wndname="playwnd" margin="1,1,1,1" colorBorder="#F9E3F8" />
+			</window>
+		</window>
+	</root>
+</SOUI>

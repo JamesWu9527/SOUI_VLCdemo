@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<imglist name="skin_traymenu_icons" src="img:traymenu_icons" states="9" />
+	<imglist name="skin_677329_jpg" src="IMG:677329_jpg" />
+	<imglist name="skin_1_jpg" src="IMG:1_jpg" />
+	<imgcenter name="skin_2_jpg" src="IMG:2_jpg" />
+	<imgcenter name="skin_2_png" src="IMG:2_png" />
+</skin>

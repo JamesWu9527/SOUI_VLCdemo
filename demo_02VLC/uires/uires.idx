@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<resource>
+	<UIDEF>
+		<file name="XML_INIT" path="uidef\init.xml" />
+	</UIDEF>
+	<LAYOUT>
+		<file name="XML_MAINWND" path="xml\dlg_main.xml" />
+		<file name="dlg_playDlg" path="xml\dlg_playDlg.xml" />
+	</LAYOUT>
+	<values>
+		<file name="string" path="values\string.xml" />
+		<file name="color" path="values\color.xml" />
+		<file name="skin" path="values\skin.xml" />
+	</values>
+	<IMG>
+		<file name="677329_jpg" path="image\677329.jpg" />
+		<file name="1_jpg" path="image\1.jpg" />
+		<file name="2_jpg" path="image\2.jpg" />
+		<file name="2_png" path="image\2.png" />
+	</IMG>
+	<ICON>
+		<file name="ICON_LOGO" path="image\soui.ico" />
+	</ICON>
+</resource>
